@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "vidara-api"
-version = "0.1.0"
+name = "vidara"
+version = "0.1.1"
 description = "Professional Python wrapper for the Vidara video hosting API"
 readme = "README.md"
 requires-python = ">=3.8"

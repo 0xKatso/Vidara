@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: vidara-api
+Version: 0.1.0
+Summary: Professional Python wrapper for the Vidara video hosting API
+Author: 0xKatso
+License: MIT
+Project-URL: Homepage, https://github.com/0xKatso/vidara-api
+Project-URL: Documentation, https://vidara.to/api
+Project-URL: Repository, https://github.com/0xKatso/vidara-api
+Project-URL: Issues, https://github.com/0xKatso/vidara-api/issues
+Keywords: vidara,api,wrapper,video-hosting,async,sync
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.0
+Provides-Extra: async
+Requires-Dist: httpx>=0.23.0; extra == "async"
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"

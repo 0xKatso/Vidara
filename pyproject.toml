@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vidara-api"
+version = "0.1.0"
+description = "Professional Python wrapper for the Vidara video hosting API"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["vidara", "api", "wrapper", "video-hosting", "async", "sync"]
+authors = [
+    { name = "0xKatso" }
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+dependencies = [
+    "requests>=2.25.0",
+]
+
+[project.optional-dependencies]
+async = [
+    "httpx>=0.23.0",
+]
+dev = [
+    "pytest>=7.0.0",
+    "build",
+    "twine",
+]
+
+[project.urls]
+Homepage = "https://github.com/0xKatso/vidara-api"
+Documentation = "https://vidara.to/api"
+Repository = "https://github.com/0xKatso/vidara-api"
+Issues = "https://github.com/0xKatso/vidara-api/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+vidara = ["py.typed"]

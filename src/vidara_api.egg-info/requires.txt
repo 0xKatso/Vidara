@@ -1,0 +1,9 @@
+requests>=2.25.0
+
+[async]
+httpx>=0.23.0
+
+[dev]
+pytest>=7.0.0
+build
+twine

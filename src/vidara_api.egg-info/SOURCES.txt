@@ -1,0 +1,12 @@
+pyproject.toml
+src/vidara/__init__.py
+src/vidara/async_client.py
+src/vidara/client.py
+src/vidara/exceptions.py
+src/vidara/models.py
+src/vidara/py.typed
+src/vidara_api.egg-info/PKG-INFO
+src/vidara_api.egg-info/SOURCES.txt
+src/vidara_api.egg-info/dependency_links.txt
+src/vidara_api.egg-info/requires.txt
+src/vidara_api.egg-info/top_level.txt

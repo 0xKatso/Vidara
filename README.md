@@ -1,24 +1,31 @@
 # vidara-api
 
-A professional, type-hinted Python wrapper for the [Vidara](https://vidara.to) video hosting API.
+[![PyPI version](https://img.shields.io/pypi/v/vidara-api.svg)](https://pypi.org/project/vidara-api/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/vidara-api.svg)](https://pypi.org/project/vidara-api/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Unofficial.** Not affiliated with Vidara. Works against `https://api.vidara.so/v1`.
+A professional, fully type-hinted Python SDK and API wrapper for the [Vidara](https://vidara.to) video hosting API. Available officially on PyPI as [`vidara-api`](https://pypi.org/project/vidara-api/).
 
-## Features
+> **Unofficial.** Not affiliated with Vidara. Interoperable with `https://api.vidara.so/v1`.
 
-- ✅ **Sync** client built on `requests`
-- ✅ **Async** client on `httpx` (`vidara-api[async]`)
-- ✅ **Fully typed** dataclass models + `py.typed` (PEP 561)
-- ✅ **Clear exceptions** for auth, not-found, server errors
-- ✅ Covers **every** documented endpoint: account, upload, video/file, folders
-- ✅ Zero-config; just your API key
+## PyPI Package
 
-## Installation
+Published to PyPI: https://pypi.org/project/vidara-api/
 
 ```bash
 pip install vidara-api            # sync only
 pip install vidara-api[async]     # with async support
 ```
+
+## Features
+
+- ✅ **Published on PyPI** as [`vidara-api`](https://pypi.org/project/vidara-api/)
+- ✅ **Sync** client built on `requests`
+- ✅ **Async** client built on `httpx`
+- ✅ **Fully typed** dataclass models + `py.typed` (PEP 561)
+- ✅ **Clear exceptions** for auth, not-found, server errors
+- ✅ Covers **every** documented endpoint: account, upload, video/file, folders
+- ✅ Zero-config; just your API key
 
 ## Quickstart
 
